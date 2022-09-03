@@ -47,7 +47,7 @@ function ordenHelado() {
         let subTotal = cantBote * boteCuarto;
 
 
-        if (cantBote == 1) {
+        if (cantBote >= 1) {
             alert("El subtotal es $" + subTotal)
             let agregado = prompt("quieres agregar otro pedido: \n si/no")
             if (agregado === "si") {
@@ -124,7 +124,7 @@ function ordenHelado() {
         let cantBote = parseInt(prompt('Cuantos botes deseas pedir:'))
         let subTotal = cantBote * boteMedio;
 
-        if (cantBote == 1) {
+        if (cantBote >= 1) {
             alert("El subtotal es $" + subTotal)
             let agregado = prompt("quieres agregar otro pedido: \n si/no")
             if (agregado === "si") {
@@ -199,7 +199,7 @@ function ordenHelado() {
         let cantBote = parseInt(prompt('Cuantos botes deseas pedir:'))
         let subTotal = cantBote * boteKilo;
 
-        if (cantBote == 1) {
+        if (cantBote >= 1) {
             alert("El subtotal es $" + subTotal)
             let agregado = prompt("quieres agregar otro pedido: \n si/no")
             if (agregado === "si") {
