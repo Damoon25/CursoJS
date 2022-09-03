@@ -73,7 +73,7 @@ function ordenHelado() {
                 let total = subTotal + agregadoBote;
 
                 if (opcionAgregado >= 1) {
-                    alert("el total mas toppings es de $" + total)
+                    alert("el total mas el agregado es de $" + total)
                 }
 
             } else if (agregado === "no") {
@@ -150,7 +150,7 @@ function ordenHelado() {
                 let total = subTotal + agregadoBote;
 
                 if (opcionAgregado >= 1) {
-                    alert("el total mas toppings es de $" + total)
+                    alert("el total mas el agregado es de $" + total)
                 }
 
             } else if (agregado === "no") {
@@ -225,7 +225,7 @@ function ordenHelado() {
                 let total = subTotal + agregadoBote;
 
                 if (opcionAgregado >= 1) {
-                    alert("el total mas toppings es de $" + total)
+                    alert("el total mas el agregado es de $" + total)
                 }
 
             } else if (agregado === "no") {
